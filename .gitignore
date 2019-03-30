@@ -12,6 +12,7 @@
 examples/**/sdkconfig
 examples/**/sdkconfig.old
 examples/**/build
+app/build
 
 # Unit test app files
 tools/unit-test-app/sdkconfig
