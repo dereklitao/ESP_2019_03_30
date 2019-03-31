@@ -1,5 +1,6 @@
-COMPONENT_SRCDIRS := common device modbus
+COMPONENT_SRCDIRS := common device modbus driver
 
 COMPONENT_ADD_INCLUDEDIRS += common
 COMPONENT_ADD_INCLUDEDIRS += device
 COMPONENT_ADD_INCLUDEDIRS += modbus
+COMPONENT_ADD_INCLUDEDIRS += driver

@@ -9,8 +9,10 @@
 #include "esp_event_loop.h"
 #include "nvs_flash.h"
 #include "driver/uart.h"
+#include "driver/gpio.h"
 #include "MQTTClient.h"
 #include "MQTTFreeRTOS.h"
+#include "driver/i2c.h"
 #include "freertos/event_groups.h"
 #include "lwip/sockets.h"
 
